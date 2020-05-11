@@ -15,5 +15,3 @@ Character.prototype.damage = function damage(points) {
   }
   return 'Персонаж мёртв';
 };
-const mage = new Character('Миша', 'Magican');
-console.log(mage.damage(200));
